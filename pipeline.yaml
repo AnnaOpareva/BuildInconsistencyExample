@@ -1,0 +1,17 @@
+pool:
+  name: Automation
+  demands:
+  - msbuild
+  - visualstudio
+
+steps:
+- task: NuGetCommand@2
+  displayName: 'NuGet restore'
+  inputs:
+    restoreSolution: 'WPF Build Test.sln'
+
+- task: VSBuild@1
+  displayName: 'Build solution WPF Build Test.sln'
+  inputs:
+    solution: 'WPF Build Test.sln'
+
