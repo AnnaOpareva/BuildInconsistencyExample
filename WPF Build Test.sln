@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF Build Test", "WPF Build Test\WPF Build Test.csproj", "{1FFE19DA-51B1-4E89-96DF-62141F97A0E5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchedulingModule.Tests", "SchedulingModule.Tests\SchedulingModule.Tests.csproj", "{B265087F-224A-4CD9-8BE3-5EBAE53D9B5D}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1FFE19DA-51B1-4E89-96DF-62141F97A0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FFE19DA-51B1-4E89-96DF-62141F97A0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1FFE19DA-51B1-4E89-96DF-62141F97A0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1FFE19DA-51B1-4E89-96DF-62141F97A0E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B265087F-224A-4CD9-8BE3-5EBAE53D9B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B265087F-224A-4CD9-8BE3-5EBAE53D9B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B265087F-224A-4CD9-8BE3-5EBAE53D9B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
