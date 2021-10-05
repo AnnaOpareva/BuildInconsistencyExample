@@ -1,8 +1,5 @@
 pool:
-  name: Automation
-  demands:
-  - msbuild
-  - visualstudio
+  vmImage: windows-2019
 
 steps:
 - task: NuGetCommand@2
